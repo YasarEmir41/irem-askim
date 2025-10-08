@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+  <rect width="100%" height="100%" fill="#fff8fb" />
+  <g transform="translate(80,60)" fill="#ff6fa3">
+    <ellipse cx="160" cy="220" rx="120" ry="90" fill="#ffd8e6" />
+    <path d="M90 190 C 70 140, 100 80, 160 80 C 220 80, 250 140, 230 190 Z" fill="#ff6fa3" opacity="0.9"/>
+    <circle cx="120" cy="90" r="36" fill="#fff"/>
+    <circle cx="200" cy="90" r="36" fill="#fff"/>
+    <rect x="88" y="210" width="140" height="6" rx="3" fill="#ffb3cc" />
+  </g>
+  <text x="20" y="30" fill="#c64a73" font-size="20" font-family="Arial">İrem & Yaşar — El ele</text>
+</svg>
