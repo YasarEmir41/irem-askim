@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>İrem'e Sonsuz Aşkım</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page">
+    <header class="hero">
+      <h1>İrem’e Sonsuz Aşkım</h1>
+      <p class="subtitle">Bu site, kalbimden sana… İrem 💖</p>
+
+      <div class="music-controls">
+        <button id="playBtn" class="btn">Play</button>
+        <button id="pauseBtn" class="btn ghost">Duraklat</button>
+      </div>
+    </header>
+
+    <main class="content">
+      <section class="left">
+        <article class="section-card">
+          <h2>Romantik Sözler</h2>
+          <ul class="lines">
+            <li>Gözlerin sabahı getirir en güzel.</li>
+            <li>Her nefesimde sana doğru bir adım daha atıyorum.</li>
+            <li>Seninle geçen her dakika bir ömre bedel.</li>
+            <li>İsmin kalbimde en güzel sır gibi saklı.</li>
+          </ul>
+        </article>
+
+        <article class="section-card">
+          <h2>Akrostiş (İREM)</h2>
+          <div class="acrostic">
+            <p><strong>İ</strong>çimde saklı bir deniz, yalnız seninle durur.</p>
+            <p><strong>R</strong>üyalarımda adınla uyanmak en tatlı sabahım.</p>
+            <p><strong>E</strong>llerim ellerinde, dünya durur bir an için.</p>
+            <p><strong>M</strong>utluluk seninle başladı, seninle çoğalıyor.</p>
+          </div>
+        </article>
+
+        <article class="section-card">
+          <h2>Kısa Şiir</h2>
+          <p class="poem">Bir gülüşün rüzgâr, bir dokunuşun limanım; <br/> Seninle her mevsim bahar, seninle her an bir şarkı.</p>
+        </article>
+      </section>
+
+      <aside class="right">
+        <div class="photo-card">
+          <!-- silhouette illustration -->
+          <img src="assets/silhouette.svg" alt="Çizim çift" />
+        </div>
+
+        <div class="photo-card">
+          <!-- face-obscured romantic photo (SVG abstract) -->
+          <img src="assets/photo_blur.svg" alt="Romantik fotoğraf" />
+        </div>
+
+        <div class="section-card">
+          <h2>Canlı Önizleme Müzik</h2>
+          <p class="muted">Butona basınca seçili şarkı çalacak. İstersen ikinci şarkıyı kullanmak için <code>script.js</code>'de değişiklik yapabilirsin.</p>
+        </div>
+      </aside>
+    </main>
+
+    <section class="letter-section">
+      <div class="letter-card">
+        <h2>Bir Mektup Sana —</h2>
+        <p class="letter"> <strong>Aşkım,</strong><br/><br/>
+        Seni tanıdığım o ilk an, hayatımın en güzel dönüm noktasıydı. 
+        Bir gülüşünle içimde koca bir bahar açtı, bir bakışınla dünyanın en huzurlu yerini buldum. 
+        Kelimeler hep yetersiz kalıyor, çünkü senin yerin kalbimin en derininde.<br/><br/>
+        Seninle her gün ayrı bir anlam kazanıyor. Birlikte güldüğümüz her an, kalbime kazınan bir hatıra oluyor. 
+        Ne zaman bir zorluk yaşasam, “İrem yanımda” demek yetiyor bana. 
+        Çünkü sen sadece sevgilim değil, aynı zamanda en güzel tesellimsin.<br/><br/>
+        Hayatımda olduğun için sana binlerce kez teşekkür ederim. 
+        Bana sevgiyi, güveni, huzuru ve gerçek mutluluğu sen öğrettin. 
+        İyi ki seni tanıdım, iyi ki kalbim seni buldu, ve en önemlisi… <strong>iyi ki benim sevgilimsin.</strong><br/><br/>
+        Seni her şeyden çok seviyorum,<br/><br/>
+        <em>– Yaşar Emir 💞</em>
+        </p>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>Hazırlayan: Yakışıklı Yaşar Emir — İrem için 💖</p>
+    </footer>
+
+    <!-- Hidden iframe players (we'll set src on play) -->
+    <div id="players" style="display:none;">
+      <iframe id="yt1" src="" allow="autoplay"></iframe>
+      <iframe id="yt2" src="" allow="autoplay"></iframe>
+    </div>
+
+    <!-- Decorative hearts -->
+    <div class="hearts" aria-hidden="true">
+      <div class="heart h1"></div>
+      <div class="heart h2"></div>
+      <div class="heart h3"></div>
+      <div class="heart h4"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
